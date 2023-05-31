@@ -1,8 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
-import { BrowserRouter as Router } from 'react-router-dom'
-
 export const NavBar = () => {
 	const [scrolled, setScrolled] = useState(false)
 	const [active, setActive] = useState(true)
@@ -42,7 +40,7 @@ export const NavBar = () => {
 	}
 
 	return (
-		<Router>
+		<>
 			<header className={scrolled ? 'nav-bar sticky' : 'nav-bar'}>
 				<a href="/" className="logo">
 					jv
@@ -110,6 +108,6 @@ export const NavBar = () => {
 					<i className="fas fa-bars"></i>
 				</button>
 			</header>
-		</Router>
+		</>
 	)
 }
