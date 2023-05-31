@@ -27,10 +27,18 @@ export const NavBar = () => {
 	const toggleActive = (value) => {
 		setActive(value)
 		setToggleCollapse(false)
+		scrollRedirect(value)
 	}
 
 	const toggleCollpaseDropDown = () => {
 		setToggleCollapse(!toggleCollapse)
+	}
+
+	const scrollRedirect = (id) => {
+		if (id !== 'Home') {
+			const element = document.querySelector(`#${id}`)
+			element.scrollIntoView({ behavior: 'smooth' })
+		}
 	}
 
 	return (
@@ -50,7 +58,8 @@ export const NavBar = () => {
 										? 'hvr-underline-from-center active'
 										: 'hvr-underline-from-center'
 								}
-								href="#home"
+								href="/"
+								id="btn-home"
 								onClick={() => toggleActive('home')}
 							>
 								Home
@@ -63,7 +72,8 @@ export const NavBar = () => {
 										? 'hvr-underline-from-center active'
 										: 'hvr-underline-from-center'
 								}
-								href="#skills"
+								id="btn-skills"
+								type="button"
 								onClick={() => toggleActive('skills')}
 							>
 								Skills
@@ -76,7 +86,8 @@ export const NavBar = () => {
 										? 'hvr-underline-from-center active'
 										: 'hvr-underline-from-center'
 								}
-								href="#projects"
+								id="btn-projects"
+								type="button"
 								onClick={() => toggleActive('projects')}
 							>
 								Projects
@@ -84,7 +95,7 @@ export const NavBar = () => {
 						</li>
 
 						<li>
-							<button className="hvr-sweep-to-right">
+							<button id="btn-connect" className="hvr-sweep-to-right">
 								<span>Let's Connect</span>
 							</button>
 						</li>

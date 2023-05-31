@@ -72,11 +72,16 @@ export const Banner = () => {
 							Development.
 						</p>
 
-						<a className="btn-resume" type="button" href="#">
+						<a
+							className="btn-resume"
+							type="button"
+							target="_blank"
+							href="https://www.terpconnect.umd.edu/~jvaldiv8/csterpconnect/josevaldivia-resume.pdf"
+						>
 							Resume<i className="bi bi-box-arrow-up-right"></i>
 						</a>
 
-						<a className="btn-more" type="button" href="#">
+						<a className="btn-more" type="button" href="#skills">
 							See More<i className="bi bi-arrow-right-circle"></i>
 						</a>
 					</div>

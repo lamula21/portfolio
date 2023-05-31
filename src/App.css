@@ -38,6 +38,18 @@ body {
 	/* background-color: #121212 !important; */
 	font-family: 'Centra';
 }
+.main-section {
+	padding-top: 45rem;
+}
+.banner {
+	margin-bottom: 100px;
+}
+.coverup {
+	background-color: #222;
+	width: 1250px;
+	height: 644px;
+	z-index: 10000;
+}
 
 /************ Navbar CSS ************/
 ul {
@@ -265,6 +277,7 @@ header.sticky .hvr-underline-from-center:before {
 	border-radius: 0.5rem;
 	display: inline-block;
 	transition: 0.3s;
+	z-index: 1000000 !important;
 }
 .banner .btn-resume:hover {
 	border: 2px solid white;
@@ -354,6 +367,7 @@ header.sticky .hvr-underline-from-center:before {
 	justify-content: center;
 	align-items: center;
 	z-index: 3;
+	background: #222;
 }
 .skills .container {
 	position: relative;

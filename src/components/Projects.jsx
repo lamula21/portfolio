@@ -9,15 +9,55 @@ import { AnimatedText } from './AnimatedText'
 import { Experience } from './Experience'
 import { Education } from './Education'
 
+import { useState } from 'react'
+
 export const Projects = () => {
+	const [tab, setTab] = useState('experience')
+
+	const toggleTab = (tab) => {
+		setTab(tab)
+	}
+
+	const tabInfo = {
+		experience: {
+			title: 'Experience',
+			info:
+				'Dedicated learner and collaborator, leveraging strong programming skills to create innovative solutions with hands-on experience in software development, web technologies, and problem-solving.',
+		},
+		projects: {
+			title: 'Projects',
+			info:
+				"Immerse yourself in my portfolio's diverse projects, from web apps to interactive responsive websites. Witness the fusion of art, technology, and attention to detail that sets my work.",
+		},
+		education: {
+			title: 'Education',
+			info:
+				'Through my comprehensive computer science program, I have been immersed in a dynamic learning environment that has equipped me with a deep understanding of algorithms, data structures, and cutting-edge technologies.',
+		},
+	}
+
 	return (
 		<section className="project" id="projects">
 			<div className="container">
 				<div className="row">
 					<div className="col">
-						<AnimatedTitle text="Projects"></AnimatedTitle>
+						<AnimatedTitle
+							text={
+								tab === 'experience'
+									? tabInfo.experience.title
+									: tab === 'projects'
+									? tabInfo.projects.title
+									: tabInfo.education.title
+							}
+						></AnimatedTitle>
 						<AnimatedText
-							text="Immerse yourself in my portfolio's diverse projects, from web apps to interactive responsive websites. Witness the fusion of art, technology, and attention to detail that sets my work."
+							text={
+								tab === 'experience'
+									? tabInfo.experience.info
+									: tab === 'projects'
+									? tabInfo.projects.info
+									: tabInfo.education.info
+							}
 							className="project-p d-inline-block w-100 display-1"
 						></AnimatedText>
 
@@ -36,6 +76,7 @@ export const Projects = () => {
 									role="tab"
 									aria-controls="pills-profile"
 									aria-selected="false"
+									onClick={() => toggleTab('experience')}
 								>
 									Experience
 								</button>
@@ -51,6 +92,7 @@ export const Projects = () => {
 									role="tab"
 									aria-controls="pills-home"
 									aria-selected="true"
+									onClick={() => toggleTab('projects')}
 								>
 									Projects
 								</button>
@@ -66,6 +108,7 @@ export const Projects = () => {
 									role="tab"
 									aria-controls="pills-contact"
 									aria-selected="false"
+									onClick={() => toggleTab('education')}
 								>
 									Education
 								</button>
