@@ -6,7 +6,7 @@ import { Skills } from './components/Skills'
 import { Projects } from './components/Projects'
 
 import { gsap } from 'gsap'
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+gsap.registerPlugin(ScrollTrigger)
 
 function App() {
 	useEffect(() => {
