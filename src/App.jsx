@@ -39,17 +39,17 @@ function App() {
 	return (
 		<>
 			<NavBar />
-			<div className="wrapper">
-				<div className="content">
-					<Banner />
-					<div className="coverup"></div>
+			{/* <div className="wrapper">
+				<div className="content"> */}
+			<Banner />
+			{/* <div className="coverup"></div>
 				</div>
-			</div>
+			</div> */}
 
-			<div className="main-section">
-				<Skills />
-				<Projects />
-			</div>
+			{/* <div className="main-section"> */}
+			<Skills />
+			<Projects />
+			{/* </div> */}
 		</>
 	)
 }
