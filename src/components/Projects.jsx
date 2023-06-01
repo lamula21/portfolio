@@ -122,11 +122,9 @@ export const Projects = () => {
 								role="tabpanel"
 								aria-labelledby="pills-profile-tab2"
 							>
-								<div className="flex w-full flex-col items-center justify-center">
-									<div className="z-0 inline-block h-full w-full pb-56">
-										<Experience></Experience>
-									</div>
-								</div>
+								<ul className="flex w-full flex-col items-center justify-center">
+									<Experience></Experience>
+								</ul>
 							</div>
 
 							<div

@@ -10,7 +10,7 @@ const Details = ({ type, time, place, info }) => {
 		// last:mb-0 no margin bottom for last
 		<li
 			ref={ref}
-			className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between"
+			class="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]"
 		>
 			<LiIcon reference={ref}></LiIcon>
 
@@ -19,15 +19,15 @@ const Details = ({ type, time, place, info }) => {
 				whileInView={{ y: 0 }}
 				transition={{ duration: 0.5, type: 'just' }}
 			>
-				<h3 className="edu-title capitalize font-bold text-2xl">
+				<h3 className="edu-title capitalize font-bold text-2xl sm:text-xl xs:text-lg">
 					{type}&nbsp;
 				</h3>
 
-				<span className="capitalize font-medium text-white/75">
+				<span className="capitalize font-medium text-white/75 xs:text-sm">
 					{time} | {place}
 				</span>
 
-				<p className="font-medium w-full">{info}</p>
+				<p className="font-medium w-full md:text-sm">{info}</p>
 			</motion.div>
 		</li>
 	)

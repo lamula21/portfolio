@@ -7,7 +7,7 @@ export const ProjectCard = ({ title, description, img }) => {
 		// sm for small size screen 6 span cols, 6/12 = 50%, 2 items in one row
 		//col-md-6 col-sm-6
 
-		<div className="proj-imgbx">
+		<div className="proj-imgbx w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full mr-4">
 			<img src={img} alt="" />
 			<div className="proj-txtx">
 				<h4>{title}</h4>

@@ -632,9 +632,10 @@ header.sticky .hvr-underline-from-center:before {
 }
 
 .project h2 {
-	font-size: 45px;
-	font-weight: 700;
-	text-align: center;
+	color: white;
+}
+.project h2:hover {
+	text-decoration: underline;
 }
 
 .project .project-p {
@@ -785,14 +786,7 @@ header.sticky .hvr-underline-from-center:before {
 	border-bottom-right-radius: 2rem;
 	background-color: #fff;
 }
-.featured-project .project-container {
-	width: 50%;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
-	padding-left: 1.5rem;
-}
+
 .featured-project .project-container span {
 	font-weight: 500;
 	font-size: 1.25rem;

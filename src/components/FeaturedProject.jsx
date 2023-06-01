@@ -20,10 +20,12 @@ export const FeaturedProject = ({
 				img={img}
 			></ProjectCard>
 
-			<div className="project-container">
+			<div className="flex w-1/2 flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
 				<span>{type}</span>
 				<a href={link} target="_blank">
-					<h2>{title}</h2>
+					<h2 className="my-2 w-full text-left text-4xl font-bold lg:text-3xl xs:text-2xl">
+						{title}
+					</h2>
 				</a>
 				<p>{summary}</p>
 
