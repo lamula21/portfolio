@@ -92,7 +92,7 @@ export const Experience = () => {
 						companyLink="www.montgomerycollege.edu"
 						time="Jan 2022 - May 2022"
 						address="Germantown, MD"
-						work="Prepared and taught in-person weekly for over 20 students in the course Calculus II. Learned to better explain technical concepts, gave detailed feedvack, and received a 95% rating from students"
+						work="Prepared and taught in-person weekly for over 20 students in the course Calculus II. Learned to better explain technical concepts, gave detailed feedback, and received a 95% rating from students"
 					></Details>
 
 					<Details
