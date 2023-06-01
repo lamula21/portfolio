@@ -607,6 +607,9 @@ header.sticky .hvr-underline-from-center:before {
 		width: 500px;
 		height: 500px;
 	}
+	.banner .btn-more {
+		display: block;
+	}
 
 	.skills .container .item h1 {
 		font-size: 30px;
@@ -812,18 +815,10 @@ header.sticky .hvr-underline-from-center:before {
 }
 
 .featured-project .project-container span {
-	font-weight: 500;
-	font-size: 1.25rem;
 	color: #58e6d9;
 }
 .featured-project .project-container h2 {
 	color: white;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	width: 100%;
-	text-align: left;
-	font-size: 2.5rem;
-	font-weight: bold;
 }
 .featured-project .project-container h2:hover {
 	text-decoration: underline;

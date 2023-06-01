@@ -138,14 +138,15 @@ export const Projects = () => {
 										<FeaturedProject
 											type="Featured Project"
 											cardTitle=""
-											description="Portfolio"
+											description="Web App"
 											title="AppTracker"
 											summary="A feature-rich Internship and Job App tracker using Express, MongoDB, NodeJs."
 											img={projectImg1}
-											link="/"
+											link="https://apptracker.onrender.com"
+											github="https://github.com/lamula21/AppTracker"
 										></FeaturedProject>
 									</div>
-									<div className="col-md-6">
+									{/* <div className="col-md-6">
 										<Project
 											type="Featured Project"
 											cardTitle=""
@@ -188,7 +189,7 @@ export const Projects = () => {
 											img={projectImg1}
 											link="/"
 										></Project>
-									</div>
+									</div> */}
 								</div>
 							</div>
 
