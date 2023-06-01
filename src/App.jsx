@@ -6,18 +6,19 @@ import { Skills } from './components/Skills'
 import { Projects } from './components/Projects'
 
 import { gsap } from 'gsap'
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+// gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+gsap.registerPlugin(ScrollTrigger)
 
 function App() {
 	useEffect(() => {
 		// Your GSAP code here
 		if (ScrollTrigger.isTouch !== 1) {
-			ScrollSmoother.create({
-				wrapper: '.wrapper',
-				content: '.content',
-				smooth: 1.5,
-				effects: true,
-			})
+			// ScrollSmoother.create({
+			// 	wrapper: '.wrapper',
+			// 	content: '.content',
+			// 	smooth: 1.5,
+			// 	effects: true,
+			// })
 
 			gsap.fromTo(
 				'.banner',
