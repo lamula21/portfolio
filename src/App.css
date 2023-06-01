@@ -556,6 +556,19 @@ header.sticky .hvr-underline-from-center:before {
 	}
 }
 
+@media (width: 390px) and (height: 844px) {
+	.banner .div-lottie {
+		position: relative;
+		top: 25px;
+		left: -10px !important;
+	}
+	.banner .div-lottie #lottie-container,
+	.banner .div-lottie #lottie-container2 {
+		width: 370px !important;
+		height: 370px !important;
+	}
+}
+
 @media (max-width: 390px) {
 	.banner h1 {
 		font-size: 64px;
@@ -564,6 +577,8 @@ header.sticky .hvr-underline-from-center:before {
 		font-size: 18px;
 	}
 	.banner .div-lottie {
+		position: relative;
+		left: 50px;
 	}
 	.banner .div-lottie #lottie-container,
 	.banner .div-lottie #lottie-container2 {
@@ -575,6 +590,30 @@ header.sticky .hvr-underline-from-center:before {
 		font-size: 30px;
 		top: 42px;
 		left: 95px;
+	}
+}
+
+@media (width: 375px) and (height: 667px) {
+	.banner h1 {
+		font-size: 64px;
+	}
+	.banner p {
+		font-size: 18px;
+	}
+	.banner .div-lottie {
+		position: relative;
+		left: -30px;
+	}
+	.banner .div-lottie #lottie-container,
+	.banner .div-lottie #lottie-container2 {
+		width: 300px;
+		height: 300px;
+	}
+
+	.skills .container .item h1 {
+		font-size: 25px;
+		top: 42px;
+		left: 90px;
 	}
 }
 
