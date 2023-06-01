@@ -506,25 +506,6 @@ header.sticky .hvr-underline-from-center:before {
 		top: 52px;
 		left: 115px;
 	}
-	#home h1 {
-		font-size: 100px;
-	}
-	#home p {
-		font-size: 24px;
-	}
-	#home .col-xl-7 {
-		width: 100%;
-	}
-	#home .div-lottie {
-		position: absolute;
-		top: 14.5%;
-		left: 40%;
-	}
-	#lottie-container,
-	#lottie-container2 {
-		height: 650px !important;
-		width: 650px !important;
-	}
 }
 
 @media (max-width: 767px) {
@@ -575,117 +556,25 @@ header.sticky .hvr-underline-from-center:before {
 	}
 }
 
-@media (max-width: 414px) {
-	.skills .container .item h1 {
-		font-size: 30px;
-		position: absolute;
-		top: 45px;
-		left: 100px;
-	}
-
-	#home .div-lottie {
-		position: absolute;
-		top: 12.5%;
-		left: 2%;
-	}
-	#lottie-container,
-	#lottie-container2 {
-		height: 450px !important;
-		width: 450px !important;
-	}
-}
-
-/* iphone 13 pro */
 @media (max-width: 390px) {
+	.banner h1 {
+		font-size: 64px;
+	}
+	.banner p {
+		font-size: 18px;
+	}
+	.banner .div-lottie {
+	}
+	.banner .div-lottie #lottie-container,
+	.banner .div-lottie #lottie-container2 {
+		width: 500px;
+		height: 500px;
+	}
+
 	.skills .container .item h1 {
 		font-size: 30px;
-		position: absolute;
-		top: 45px;
-		left: 100px;
-	}
-	#home h1 {
-		font-size: 55px;
-	}
-	#home p {
-		font-size: 18px;
-	}
-
-	#home .div-lottie {
-		position: absolute;
-		top: 11%;
-		left: 2%;
-	}
-	#lottie-container,
-	#lottie-container2 {
-		height: 450px !important;
-		width: 450px !important;
-	}
-}
-
-@media (max-width: 386px) {
-	.skills .container .item h1 {
-		font-size: 25px;
-		position: absolute;
-		top: 45px;
+		top: 42px;
 		left: 95px;
-	}
-
-	#home .div-lottie {
-		position: absolute;
-		top: 14%;
-		left: 15%;
-	}
-	#lottie-container,
-	#lottie-container2 {
-		height: 300px !important;
-		width: 300px !important;
-	}
-}
-
-@media (max-width: 364px) {
-	.skills .container .item h1 {
-		font-size: 25px;
-		position: absolute;
-		top: 40px;
-		left: 80px;
-	}
-
-	#home .div-lottie {
-		position: absolute;
-		top: 15%;
-		left: -5%;
-	}
-	#lottie-container,
-	#lottie-container2 {
-		height: 300px !important;
-		width: 300px !important;
-	}
-}
-
-@media (max-width: 360px) {
-	.skills .container .item h1 {
-		font-size: 25px;
-		position: absolute;
-		top: 40px;
-		left: 80px;
-	}
-
-	#home h1 {
-		font-size: 55px;
-	}
-	#home p {
-		font-size: 18px;
-	}
-
-	#home .div-lottie {
-		position: absolute;
-		top: 15%;
-		left: -5%;
-	}
-	#lottie-container,
-	#lottie-container2 {
-		height: 300px !important;
-		width: 300px !important;
 	}
 }
 
