@@ -1,6 +1,6 @@
 {
-	"homepage": "https://lamula21.github.io/portfolio",
-	"name": "portfolio",
+	"homepage": "https://lamula21.github.io/jv-portfolio",
+	"name": "jv-portfolio",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
