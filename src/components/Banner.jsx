@@ -60,7 +60,7 @@ export const Banner = () => {
 	return (
 		<section className="banner" id="home">
 			<div className="container">
-				<div className="container-2 align-items-center row lg:px-24 md:px-10">
+				<div className="container-2 align-items-center row lg:px-24 md:px-10 sm:px-42 w-full">
 					<div data-speed="0.8" className="col-xl-7 col-md-6 col-12">
 						<h1 data-aos="fade-left" data-aos-delay="250">
 							Hi! I'm <span className="wrap">{text}</span>
@@ -85,15 +85,15 @@ export const Banner = () => {
 							See More<i className="bi bi-arrow-right-circle"></i>
 						</a>
 					</div>
+				</div>
 
-					<div className="div-lottie col-xl-5 col-md-6 col-12">
-						<div data-speed="1.2" id="lottie-container2">
-							<Lottie animationData={lottieData} loop autoplay />
-						</div>
+				<div className="div-lottie col-xl-5 col-md-6 col-12">
+					<div data-speed="1.2" id="lottie-container2">
+						<Lottie animationData={lottieData} loop autoplay />
+					</div>
 
-						<div data-speed="1.2" id="lottie-container">
-							<Lottie animationData={lottieData2} loop autoplay />
-						</div>
+					<div data-speed="1.2" id="lottie-container">
+						<Lottie animationData={lottieData2} loop autoplay />
 					</div>
 				</div>
 			</div>
