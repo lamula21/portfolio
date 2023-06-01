@@ -28,7 +28,9 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
 							target="_blank"
 							className="company-link capitalize"
 						>
-							@{company}
+							{company === 'Montgomery College'
+								? ' @' + company
+								: '@' + company}
 						</a>
 					</h3>
 

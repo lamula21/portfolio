@@ -424,6 +424,26 @@ header.sticky .hvr-underline-from-center:before {
 	.skills .container .item h1 {
 		font-size: 35px;
 		position: absolute;
+		top: 80px;
+		left: 180px;
+	}
+	.skills .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+		position: absolute;
+		bottom: 110px;
+		left: 0px;
+	}
+	.skills
+		.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+		position: absolute;
+		bottom: 110px;
+		right: 0px;
+	}
+}
+
+@media (max-width: 1535px) {
+	.skills .container .item h1 {
+		font-size: 35px;
+		position: absolute;
 		top: 63px;
 		left: 138px;
 	}
@@ -524,6 +544,15 @@ header.sticky .hvr-underline-from-center:before {
 		position: absolute;
 		top: 30px;
 		left: 65px;
+	}
+}
+
+@media (max-width: 464px) {
+	.skills .container .item h1 {
+		font-size: 30px;
+		position: absolute;
+		top: 55px;
+		left: 125px;
 	}
 }
 
