@@ -30,7 +30,7 @@ const singleWord = {
 
 export const AnimatedTitle = ({ text, className = '' }) => {
 	return (
-		<div className="col-12 mx-auto py-2 d-flex align-items-center justify-content-center text-center overflow-hidden">
+		<div className="animated-title col-12 mx-auto py-2 d-flex align-items-center justify-content-center text-center overflow-hidden">
 			<motion.h2
 				className={`d-inline-block w-100 display-1${className}`}
 				variants={quote}

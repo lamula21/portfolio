@@ -250,6 +250,8 @@ header.sticky .hvr-underline-from-center:before {
 .banner .container-2 {
 	/* fixed typing taking space */
 	position: absolute;
+	top: 6%;
+	left: 0%;
 }
 
 .banner h1 {
@@ -469,6 +471,15 @@ header.sticky .hvr-underline-from-center:before {
 	}
 } */
 
+@media (max-width: 1279px) {
+	.skills .container .item h1 {
+		font-size: 30px;
+		position: absolute;
+		top: 50px;
+		left: 110px;
+	}
+}
+
 @media (max-width: 1199px) {
 	.skills .container .item h1 {
 		font-size: 28px;
@@ -631,7 +642,9 @@ header.sticky .hvr-underline-from-center:before {
 	padding-top: 70px;
 }
 
-.project h2 {
+.project .animated-title h2 {
+	font-size: 45px;
+	font-weight: 700;
 	color: white;
 }
 .project h2:hover {
