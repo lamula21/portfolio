@@ -33,10 +33,8 @@ export const NavBar = () => {
 	}
 
 	const scrollRedirect = (id) => {
-		if (id !== 'Home') {
-			const element = document.querySelector(`#${id}`)
-			element.scrollIntoView({ behavior: 'smooth' })
-		}
+		const element = document.querySelector(`#${id}`)
+		element.scrollIntoView({ behavior: 'smooth' })
 	}
 
 	return (
@@ -56,7 +54,6 @@ export const NavBar = () => {
 										? 'hvr-underline-from-center active'
 										: 'hvr-underline-from-center'
 								}
-								href="/"
 								id="btn-home"
 								onClick={() => toggleActive('home')}
 							>
