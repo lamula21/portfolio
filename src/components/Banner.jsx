@@ -60,7 +60,7 @@ export const Banner = () => {
 	return (
 		<section className="banner" id="home">
 			<div className="container">
-				<div className="container-2 align-items-center row lg:px-24 md:px-10 w-full">
+				<div className="container-2 align-items-center row lg:px-24 md:px-10 w-full overflow-hidden">
 					<div data-speed="0.8" className="col-xl-7 col-md-6 col-12">
 						<h1 data-aos="fade-left" data-aos-delay="250">
 							Hi! I'm <span className="wrap">{text}</span>
