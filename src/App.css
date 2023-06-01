@@ -422,10 +422,10 @@ header.sticky .hvr-underline-from-center:before {
 
 @media (max-width: 3000px) {
 	.skills .container .item h1 {
-		font-size: 28px;
+		font-size: 35px;
 		position: absolute;
-		top: 50px;
-		left: 110px;
+		top: 63px;
+		left: 138px;
 	}
 	.skills .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
 		position: absolute;
