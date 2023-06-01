@@ -595,6 +595,33 @@ header.sticky .hvr-underline-from-center:before {
 	}
 }
 
+/* iphone 13 pro */
+@media (max-width: 390px) {
+	.skills .container .item h1 {
+		font-size: 30px;
+		position: absolute;
+		top: 45px;
+		left: 100px;
+	}
+	#home h1 {
+		font-size: 55px;
+	}
+	#home p {
+		font-size: 18px;
+	}
+
+	#home .div-lottie {
+		position: absolute;
+		top: 11%;
+		left: 2%;
+	}
+	#lottie-container,
+	#lottie-container2 {
+		height: 450px !important;
+		width: 450px !important;
+	}
+}
+
 @media (max-width: 386px) {
 	.skills .container .item h1 {
 		font-size: 25px;
