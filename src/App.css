@@ -244,7 +244,7 @@ header.sticky .hvr-underline-from-center:before {
 	background-color: black;
 	color: white;
 	padding: 150px 0 100px 0;
-	height: 120vh;
+	height: 100vh;
 }
 
 .banner .container-2 {
@@ -369,7 +369,6 @@ header.sticky .hvr-underline-from-center:before {
 	justify-content: center;
 	align-items: center;
 	z-index: 3;
-	background: #222;
 }
 .skills .container {
 	position: relative;
@@ -492,7 +491,16 @@ header.sticky .hvr-underline-from-center:before {
 	}
 }
 
-@media (max-width: 1024px) {
+@media (width: 1024px) {
+	.skills .container .item h1 {
+		font-size: 35px;
+		position: absolute;
+		top: 80px;
+		left: 170px;
+	}
+}
+
+@media (max-width: 1023px) {
 	.skills .container .item h1 {
 		font-size: 35px;
 		position: absolute;
@@ -590,6 +598,9 @@ header.sticky .hvr-underline-from-center:before {
 }
 
 @media (max-width: 390px) {
+	.banner .container-2 {
+		top: 3.5%;
+	}
 	.banner h1 {
 		font-size: 64px;
 	}
@@ -604,6 +615,9 @@ header.sticky .hvr-underline-from-center:before {
 	.banner .div-lottie #lottie-container2 {
 		width: 500px;
 		height: 500px;
+	}
+	.banner .btn-more {
+		display: block;
 	}
 
 	.skills .container .item h1 {
@@ -810,18 +824,10 @@ header.sticky .hvr-underline-from-center:before {
 }
 
 .featured-project .project-container span {
-	font-weight: 500;
-	font-size: 1.25rem;
 	color: #58e6d9;
 }
 .featured-project .project-container h2 {
 	color: white;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	width: 100%;
-	text-align: left;
-	font-size: 2.5rem;
-	font-weight: bold;
 }
 .featured-project .project-container h2:hover {
 	text-decoration: underline;

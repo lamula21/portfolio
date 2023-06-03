@@ -20,7 +20,7 @@ export const FeaturedProject = ({
 				img={img}
 			></ProjectCard>
 
-			<div className="flex w-1/2 flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
+			<div className="project-container flex w-1/2 flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
 				<span>{type}</span>
 				<a href={link} target="_blank">
 					<h2 className="my-2 w-full text-left text-4xl font-bold lg:text-3xl xs:text-2xl">
@@ -30,10 +30,10 @@ export const FeaturedProject = ({
 				<p>{summary}</p>
 
 				<div className="project-link-container">
-					<a href={github} className="github-link">
+					<a href={github} className="github-link" target="_blank">
 						<i className="bi bi-github"></i>
 					</a>
-					<a href={link} className="visit-link">
+					<a href={link} className="visit-link" target="_blank">
 						Visit Project
 					</a>
 				</div>
