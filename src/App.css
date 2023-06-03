@@ -491,15 +491,6 @@ header.sticky .hvr-underline-from-center:before {
 	}
 }
 
-@media (width: 1024px) {
-	.skills .container .item h1 {
-		font-size: 35px;
-		position: absolute;
-		top: 80px;
-		left: 170px;
-	}
-}
-
 @media (max-width: 1023px) {
 	.skills .container .item h1 {
 		font-size: 35px;
