@@ -462,15 +462,6 @@ header.sticky .hvr-underline-from-center:before {
 	}
 }
 
-/* @media (max-width: 1248px) {
-	.skills .container .item h1 {
-		font-size: 35px;
-		position: absolute;
-		top: 55px;
-		left: 125px;
-	}
-} */
-
 @media (max-width: 1279px) {
 	.skills .container .item h1 {
 		font-size: 30px;
@@ -507,6 +498,15 @@ header.sticky .hvr-underline-from-center:before {
 		position: absolute;
 		top: 50px;
 		left: 114px;
+	}
+}
+/* Ipad Pro responsive */
+@media (width: 1024px) {
+	.skills .container .item h1 {
+		font-size: 35px;
+		position: absolute;
+		top: 80px;
+		left: 165px;
 	}
 }
 
@@ -564,6 +564,15 @@ header.sticky .hvr-underline-from-center:before {
 		position: absolute;
 		top: 55px;
 		left: 125px;
+	}
+}
+
+@media (max-width: 420px) and (min-width: 391px) {
+	.skills .container .item h1 {
+		font-size: 25px;
+		position: absolute;
+		top: 50px;
+		left: 110px;
 	}
 }
 
