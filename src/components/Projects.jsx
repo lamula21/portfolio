@@ -1,7 +1,6 @@
 import React from 'react'
 import projectImg1 from '../assets/project-img1.png'
 import projectImg2 from '../assets/project2.png'
-import projectImg3 from '../assets/project-img3.png'
 import { FeaturedProject } from './FeaturedProject'
 import { Project } from './Project'
 import { AnimatedTitle } from './AnimatedTitle'
