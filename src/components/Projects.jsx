@@ -1,6 +1,6 @@
 import React from 'react'
 import projectImg1 from '../assets/project-img1.png'
-import projectImg2 from '../assets/project-img2.png'
+import projectImg2 from '../assets/project2.png'
 import projectImg3 from '../assets/project-img3.png'
 import { FeaturedProject } from './FeaturedProject'
 import { Project } from './Project'
@@ -137,15 +137,28 @@ export const Projects = () => {
 									<div className="col-md-12">
 										<FeaturedProject
 											type="Featured Project"
-											cardTitle=""
-											description="Web App"
+											cardTitle="Web App"
+											description="MERN"
 											title="AppTracker"
-											summary="A feature-rich Internship and Job App tracker using Express, MongoDB, NodeJs."
+											summary="A feature-rich Internship and Job application tracker using MongoDB, Express, and NodeJs, Nodemail API, Google Calendar API, and AI."
 											img={projectImg1}
 											link="https://apptracker.onrender.com"
 											github="https://github.com/lamula21/AppTracker"
 										></FeaturedProject>
 									</div>
+
+									<div className="col-md-6">
+										<Project
+											type="Web App"
+											cardTitle="Social Network App"
+											description="Flask"
+											title="TerpNet"
+											summary="A Web App social platform built on top of Flask (Python), with real-time messages, search users engine, user's post and comments."
+											img={projectImg2}
+											link="/"
+										></Project>
+									</div>
+
 									{/* <div className="col-md-6">
 										<Project
 											type="Featured Project"

@@ -15,7 +15,7 @@ export const FeaturedProject = ({
 		<article className="featured-project">
 			<div className="border"></div>
 			<ProjectCard
-				title={title}
+				title={cardTitle}
 				description={description}
 				img={img}
 			></ProjectCard>
