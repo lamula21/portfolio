@@ -14,6 +14,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
 			className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]"
 		>
 			<LiIcon reference={ref}></LiIcon>
+
 			<div
 				data-aos="fade-up"
 				data-os-delay="1"
@@ -54,7 +55,7 @@ export const Experience = () => {
 
 	return (
 		<div className="my-16">
-			<div className="w-[75%] mx-auto relative" ref={ref}>
+			<div ref={ref} className="w-[75%] mx-auto relative">
 				<motion.div
 					style={{ scaleY: scrollYProgress }}
 					className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top"
